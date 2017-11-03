@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(a, b)
   if position_taken?(a, b)
-    if i<0 || i>9
+    if b<0 || b>9
       false
     end
   else
