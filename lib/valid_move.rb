@@ -1,15 +1,14 @@
 # code your #valid_move? method here
 def valid_move?(a, b)
-  if position_taken?(a, b)
-    if b<0 || b>9
+  if b>9 || b<0
+    false
+  else
+    if position_taken?(a, b)
       false
     else
       true
     end
-  else
-    false
   end
-  true
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
