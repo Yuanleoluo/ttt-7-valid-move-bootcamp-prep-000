@@ -5,7 +5,7 @@ def valid_move?(a, b)
       false
     end
   else
-    flase
+    false
   end
   true
 end
