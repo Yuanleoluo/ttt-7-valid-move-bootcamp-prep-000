@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(b, i)
-  if position_taken?(b, i)
+def valid_move?(a, b)
+  if position_taken?(a, b)
     if i<0 || i>9
       false
     end
