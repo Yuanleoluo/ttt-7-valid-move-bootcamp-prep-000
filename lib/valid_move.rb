@@ -3,6 +3,8 @@ def valid_move?(a, b)
   if position_taken?(a, b)
     if b<0 || b>9
       false
+    else
+      true
     end
   else
     false
